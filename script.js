@@ -104,30 +104,3 @@ document.querySelectorAll(".solution-card,.success-card,.innovation-left")
     observer.observe(el);
 
 });
-
-
-
-const codexHello = document.querySelector(".codex-hello");
-const codexReview = document.querySelector(".codex-review");
-
-if(codexHello){
-
-    codexHello.addEventListener("click", () => {
-
-        codexHello.innerHTML = 'Ready when you are <i data-lucide="sparkles"></i>';
-        lucide.createIcons();
-
-    });
-
-}
-
-if(codexReview){
-
-    codexReview.addEventListener("click", () => {
-
-        codexReview.innerHTML = 'Scanning the build <i data-lucide="radar"></i>';
-        lucide.createIcons();
-
-    });
-
-}

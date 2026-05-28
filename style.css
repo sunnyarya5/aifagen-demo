@@ -365,6 +365,12 @@ section{
     box-shadow:0 10px 40px rgba(255,255,255,.06);
 }
 
+.solution-card-featured{
+    border-color:#2563eb;
+
+    box-shadow:0 10px 40px rgba(37,99,235,.14);
+}
+
 
 .card-icon{
     width:52px;
@@ -401,7 +407,7 @@ section{
     line-height:1.8;
 }
 
-.expbtn{
+.explore-services-btn{
     width: 100%;
     background: transparent;
     color:white;
@@ -411,7 +417,7 @@ section{
     border: transparent;
 }
 
-.expbtn:hover{
+.explore-services-btn:hover{
     transform:translateY(-4px);
     transition: 0.3s ease;
     color:#2f6bff;
@@ -1131,7 +1137,7 @@ section{
 
 @media(max-width:768px){
 
-    .section-header h2{
+    .success-header h2{
         font-size:42px;
     }
 
@@ -1379,6 +1385,7 @@ section{
     }
 
     .section-header h2,
+    .success-header h2,
     .innovation-left h2{
         font-size:40px;
     }

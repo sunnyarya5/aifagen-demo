@@ -1,13 +1,7 @@
-// =========================
-// LUCIDE ICONS
-// =========================
+
 
 lucide.createIcons();
 
-
-// =========================
-// NAVBAR SCROLL EFFECT
-// =========================
 
 const navbar = document.querySelector(".navbar");
 
@@ -28,9 +22,6 @@ window.addEventListener("scroll", () => {
 });
 
 
-// =========================
-// SOLUTION CARD HOVER
-// =========================
 
 const cards = document.querySelectorAll(".solution-card");
 
@@ -53,9 +44,6 @@ cards.forEach(card => {
 });
 
 
-// =========================
-// BUTTON RIPPLE EFFECT
-// =========================
 
 const buttons = document.querySelectorAll("button");
 
@@ -70,9 +58,6 @@ buttons.forEach(button => {
 });
 
 
-// =========================
-// PARALLAX ORBITS
-// =========================
 
 document.addEventListener("mousemove", (e) => {
 
@@ -91,9 +76,6 @@ document.addEventListener("mousemove", (e) => {
 });
 
 
-// =========================
-// SCROLL REVEAL
-// =========================
 
 const observer = new IntersectionObserver((entries) => {
 
@@ -124,9 +106,6 @@ document.querySelectorAll(".solution-card,.success-card,.innovation-left")
 });
 
 
-// =========================
-// CODEX ACTIONS
-// =========================
 
 const codexHello = document.querySelector(".codex-hello");
 const codexReview = document.querySelector(".codex-review");
